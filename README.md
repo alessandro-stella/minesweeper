@@ -1,7 +1,7 @@
 <h1>Minesweeper</h1>
 
 <div>A modern take on the popular "minesweeper" game. Hope you enjoy playing!</div>
-<div>Want to play a game? https://minesweeper-vite.web.app/</div>
+<div>Do you want to play a game? Visit the website: https://minesweeper-vite.web.app/</div>
 
 <h3>:dart: - Goal of this project</h3>
 <ul>
