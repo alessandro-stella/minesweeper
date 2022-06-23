@@ -13,7 +13,19 @@
 
 <ul>
     <li>In the main screen you can select the number of columns and rows of the playing field (with the possibility of making it square)</li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>By changing the difficulty, the number of mines hidden in the field will increase or decrease accordingly</li>
+    <li>
+        Once you click on a square without selecting the "flagging" option, one of two situations can occur
+        <ul>
+        <li>
+            If there is no mine, the box will show a number indicating the number of mines present in its immediate vicinity (in a 3x3 square, with the clicked cell in the center)
+        </li>
+        <li>
+            If there is a mine, the game will end by revealing the location of all mines on the field
+        </li>
+        </ul>
+    </li>
+    <li>
+        If the "flagging" option is selected, the cell turns gray and will show a flag icon, symbolizing the fact that we believe there is a mine there
+    </li>
 </ul>
