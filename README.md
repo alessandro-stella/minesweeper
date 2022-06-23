@@ -1,6 +1,6 @@
 <h1>Minesweeper</h1>
 
-<div>A modern take on the popular "minesweeper" game</div>
+<div>A modern take on the popular "minesweeper" game. Hope you enjoy playing!</div>
 
 <h3>:dart: - Goal of this project</h3>
 <ul>

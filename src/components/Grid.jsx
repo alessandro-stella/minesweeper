@@ -327,7 +327,7 @@ function Grid(props) {
                                     onClick={() => setFlagging(false)}>
                                     <img
                                         src={flagging ? bomb : bombDark}
-                                        alt="Seleziona cella"
+                                        alt="Select cell"
                                     />
                                 </div>
                                 <div
@@ -337,7 +337,7 @@ function Grid(props) {
                                     onClick={() => setFlagging(true)}>
                                     <img
                                         src={!flagging ? flag : flagDark}
-                                        alt="Posiziona bandiera"
+                                        alt="Place flag"
                                     />
                                 </div>
 
@@ -347,7 +347,7 @@ function Grid(props) {
                                         setIsTitleShown(true);
                                         setIsGridShown(false);
                                     }}>
-                                    <img src={backArrow} alt="Indietro" />
+                                    <img src={backArrow} alt="Go back" />
                                 </div>
                             </div>
                         </div>
@@ -364,15 +364,15 @@ function Grid(props) {
                 <>
                     <div className="text end-message">
                         {won
-                            ? "Complimenti, hai vinto!"
-                            : "Sembra che tu abbia perso..."}
+                            ? "Congratulations, you have won!"
+                            : "You seem to have lost..."}
                     </div>
 
                     <div className="button-container">
                         <div
                             className="button end-game__button"
                             onClick={() => setIsGridShown(false)}>
-                            Gioca di nuovo
+                            play again
                         </div>
                     </div>
                 </>

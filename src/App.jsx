@@ -91,14 +91,12 @@ function App() {
             {!isGridShown ? (
                 <>
                     <div className="grid-settings-container">
-                        <div className="text section-title">
-                            Impostazioni griglia
-                        </div>
+                        <div className="text section-title">Grid settings</div>
 
                         <div className="size-container">
                             <div className="text">
-                                Numero{" "}
-                                {isSquared ? "righe e colonne:" : "colonne: "}
+                                Number of{" "}
+                                {isSquared ? "rows and columns:" : "columns: "}
                             </div>
 
                             <div className="button-container">
@@ -120,7 +118,7 @@ function App() {
 
                         {!isSquared && (
                             <div className="size-container">
-                                <div className="text">Numero righe:</div>
+                                <div className="text">Number of rows:</div>
 
                                 <div className="button-container">
                                     <div
@@ -142,7 +140,7 @@ function App() {
                             </div>
                         )}
                         <div className="text section-title">
-                            Dimensioni griglia: {gridSizeX}x{gridSizeY}
+                            Grid size: {gridSizeX}x{gridSizeY}
                         </div>
 
                         <div className="size-container">
@@ -151,21 +149,21 @@ function App() {
                                     isSquared ? "active" : ""
                                 }`}
                                 onClick={() => changeGridMode("squared")}>
-                                QUADRATA
+                                SQUARED
                             </div>
                             <div
                                 className={`button ${
                                     !isSquared ? "active" : ""
                                 }`}
                                 onClick={() => changeGridMode("rectangular")}>
-                                RETTANGOLARE
+                                RECTANGULAR
                             </div>
                         </div>
                     </div>
 
                     <div className="difficulty-container">
                         <div className="text section-title">
-                            Seleziona la difficolta'
+                            Select the difficulty
                         </div>
 
                         <div className="difficulty-buttons">
@@ -178,7 +176,7 @@ function App() {
                                         (difficulty) => (difficulty = "easy")
                                     )
                                 }>
-                                Facile
+                                Easy
                             </div>
 
                             <div
@@ -190,7 +188,7 @@ function App() {
                                         (difficulty) => (difficulty = "normal")
                                     )
                                 }>
-                                Normale
+                                Normal
                             </div>
 
                             <div
@@ -202,12 +200,12 @@ function App() {
                                         (difficulty) => (difficulty = "hard")
                                     )
                                 }>
-                                Difficile
+                                Hard
                             </div>
                         </div>
 
                         <div className="text bomb-number">
-                            Bombe: {bombNumber}
+                            Mines: {bombNumber}
                         </div>
                     </div>
 
@@ -217,7 +215,7 @@ function App() {
                             setIsTitleShown(false);
                             setIsGridShown(true);
                         }}>
-                        Gioca
+                        Play
                     </div>
                 </>
             ) : (
