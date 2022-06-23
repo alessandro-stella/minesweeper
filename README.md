@@ -9,10 +9,8 @@
 </ul>
 
 <h3>:memo: - Rules of the game</h3>
-<strong>The objective of the game is to find all the mines hidden in the field and mark them with a flag</strong>
-
+<div><strong>The objective of the game is to find all the mines hidden in the field and mark them with a flag</strong></div>
 <br>
-
 <ul>
     <li>In the main screen you can select the number of columns and rows of the playing field (with the possibility of making it square)</li>
     <li>By changing the difficulty, the number of mines hidden in the field will increase or decrease accordingly</li>
